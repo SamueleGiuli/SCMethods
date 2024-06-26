@@ -1,0 +1,15 @@
+name = "SCMethods"
+version = "0.1.0"
+license = "license"
+author = "SamueleGiuli"
+maintainer = "samuele.giuli@gmail.com"
+copyright = "Copyright 2024, SamueleGiuli"
+[build]
+link = ["blas", "lapack"]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = true
+[dependencies]
+stdlib = "*"
