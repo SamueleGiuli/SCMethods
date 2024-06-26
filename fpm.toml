@@ -1,9 +1,9 @@
 name = "SCMethods"
 version = "0.1.0"
 license = "license"
-author = "SamueleGiuli"
+author = "SamueleGiuli, Gabriele Bellomia"
 maintainer = "samuele.giuli@gmail.com"
-copyright = "Copyright 2024, SamueleGiuli"
+copyright = "Copyright 2024, SamueleGiuli, Gabriele Bellomia"
 [build]
 link = ["blas", "lapack"]
 auto-executables = true
