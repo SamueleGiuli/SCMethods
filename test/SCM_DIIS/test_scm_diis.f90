@@ -25,6 +25,7 @@ program test_scm_diis
      E_new=X_new-X_old
      write(*,*) "istep=",i," - X=",X_new
      call diis(X_new,E_new,print_info_=.true.)
+     if( all(abs(X_new-X_old) < error) ) converged=.true.
      write(*,*) "diff:",X_new-X_old, " - converged=",converged
      if(all(abs(E_new)<error)) exit
   end do
