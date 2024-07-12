@@ -37,4 +37,8 @@ Authors and contributors
 +   [Gabriele Bellomia](https://github.com/beddalumia)  
     +   Post-Doc in Condensed Matter Physics @ SISSA, Trieste, Italy
 
+
++   [Carlos Mejuto Zaera](https://github.com/CarlosMejZ)  
+    +   Post-Doc in Condensed Matter Physics @ SISSA, Trieste, Italy
+
 	
