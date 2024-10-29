@@ -29,7 +29,7 @@ module SCM_DIIS
   real(dp),allocatable :: A_rdp(:,:) , B_rdp(:,:)
   !
   interface diis
-     !> Simple D
+     !> Simple DIIS
      module procedure scm_diis_rdp, scm_diis_rsp
   end interface diis
 
